@@ -1,0 +1,17 @@
+import './style/index.scss';
+// import './index.css';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+library.add(fas);
+export { default as Button } from './components/button/Button';
+export { default as Alert } from './components/alert/Alert';
+export { default as Menu } from './components/menu/Menu';
+export { default as Tabs } from './components/tabs/Tabs';
+export { default as Icon } from './components/icon/Icon';
+export { default as Input } from './components/input/Input';
+export { default as AutoComplete } from './components/auto-complete/AutoComplete';
+export { default as Upload } from './components/upload/Upload';
+export { default as Progress } from './components/progress/Progress';
+export { default as Select } from './components/select/Select';
+export { default as Card } from './components/card/Card';
+export { default as message } from './components/message/messge';

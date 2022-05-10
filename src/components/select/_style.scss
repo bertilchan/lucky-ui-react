@@ -1,0 +1,77 @@
+.viki-select {
+  position: relative;
+  .viki-select-dropdown {
+    position: absolute;
+    left: 0;
+    top: $select-dropdown-top;
+    z-index: 10;
+    background: white;
+    border: $select-dropdown-border-color $select-dropdown-border-width solid;
+    width: 100%;
+    list-style: none;
+    padding: $select-dropdown-padding 0;
+    border-radius: $select-dropdown-border-radius;
+    box-shadow: $box-shadow-sm;
+    .viki-select-options {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: $select-options-padding;
+      &:hover {
+        color: $primary;
+      }
+      .viki-option-content {
+        flex: 10;
+      }
+    }
+    .viki-select-options-is-select {
+      color: $primary;
+      .viki-icon {
+        flex: 1;
+      }
+    }
+    .viki-select-options-is-high-linght {
+      background-color: $gray-100;
+    }
+    .viki-select-options-is-disabled {
+      color: $gray-300;
+      cursor: not-allowed;
+      &:hover {
+        color: $gray-300;
+      }
+    }
+  }
+  .viki-input {
+    &:first-child {
+      .viki-input-sufIcon {
+        svg {
+          transition: transform 300ms linear;
+        }
+      }
+    }
+  }
+}
+
+.viki-select-lg {
+  .viki-select-dropdown {
+    top: $select-dropdown-top-lg;
+  }
+}
+
+.viki-select-sm {
+  .viki-select-dropdown {
+    top: $select-dropdown-top-sm;
+  }
+}
+
+.viki-select-is-open {
+  .viki-input {
+    &:first-child {
+      .viki-input-sufIcon {
+        svg {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}
