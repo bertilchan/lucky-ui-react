@@ -1,9 +1,9 @@
 {
   "private": false,
   "name": "lucky-ui-react",
-  "version": "0.1.6",
+  "version": "1.1.0",
   "description": "A use of the React and typeScript in building a UI component library",
-  "author": "qbyqby",
+  "author": "Bertil Chan",
   "license": "MIT",
   "keywords": [
     "Component",
@@ -33,7 +33,7 @@
     "build-sass": "node-sass ./src/style/index.scss ./dist/index.css",
     "test": "react-scripts test",
     "test:coverage": "umi-test --coverage",
-    "prepublish": "npm run build"
+    "prepublish": "npm run test && npm run lint && npm run build"
   },
   "main": "dist/index.js",
   "module": "dist/index.js",

@@ -3,6 +3,7 @@ import { UploadFile } from './Upload';
 import Icon, { ThemeProps } from '../icon/Icon';
 import { IconName } from '../icon/icons/allIcons';
 import Progress from '../progress/Progress';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 interface UploadListProps {
   fileList: UploadFile[];
@@ -29,7 +30,7 @@ const UploadList: FC<UploadListProps> = props => {
             </span>
             <span className="file-status">
               <Icon
-                icon={statusMap.get(item.status!)!['icon'] as IconName}
+                icon={statusMap.get(item.status!)!['icon'] as IconProp}
                 spin={item.status === 'uploading'}
                 theme={statusMap.get(item.status!)!['theme'] as ThemeProps}
               />

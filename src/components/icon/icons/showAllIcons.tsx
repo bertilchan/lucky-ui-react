@@ -6,7 +6,7 @@
 import React, { useState } from 'react';
 import Icon from '../Icon';
 import Input from '../../input/Input';
-import messge from '../../message/messge';
+import message from '../../message/Message';
 import icons, { IconName } from './allIcons';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import './style.scss';
@@ -14,7 +14,7 @@ import './style.scss';
 const showAllIcons = () => {
   const [iconArray, setIconArray] = useState<IconName[]>(icons);
   const handleCopy = (item: string) => {
-    messge.success(`成功复制 ${item}   🎉`);
+    // message.success(`成功复制 ${item}   🎉`);
   };
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
@@ -44,7 +44,7 @@ const showAllIcons = () => {
               onCopy={() => handleCopy(`<Icon icon='${item}' />`)}
             >
               <div className="show-iocn-box">
-                <Icon icon={item} className="show-icon" size="3x" />
+                {/* <Icon icon={item} className="show-icon" size="3x" /> */}
                 <span className="show-icon-name">{item}</span>
               </div>
             </CopyToClipboard>

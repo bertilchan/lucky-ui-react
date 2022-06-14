@@ -17,5 +17,5 @@ features:
   - icon: https://img-blog.csdnimg.cn/20210515165515851.png
     title: Basic functions of standards
     desc: Retained the common functions of common components, did not launch complex functions, meet the basic use, need fancy operation, sorry, no!
-footer: Copyright © 2021<br />Created by bertilchan on GitHub
+footer: Copyright © 2022 Created by bertilchan on GitHub
 ---

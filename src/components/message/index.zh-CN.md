@@ -2,10 +2,10 @@
 category: Components
 cols: 1
 type: 反馈
-title: message 全局提示
+title: Message 全局提示
 ---
 
-# message 全局提示
+# Message 全局提示
 
 全局展示操作反馈信息。
 

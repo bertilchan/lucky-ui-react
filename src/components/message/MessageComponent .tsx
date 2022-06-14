@@ -40,7 +40,7 @@ class MessageComponent extends Component<unknown, IState> {
     const timer = setTimeout(() => {
       this.remove(layer);
     }, duration);
-    let layer: ILayer = {
+    const layer: ILayer = {
       id: id++,
       index: index++,
       message,
