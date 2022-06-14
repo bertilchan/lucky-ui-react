@@ -21,9 +21,9 @@ $ npm start
 ```
 
 ```shell
-$ npm build
+$ npm run build
 ```
 
 ```shell
-$ npm docs:build
+$ npm run docs:build
 ```
