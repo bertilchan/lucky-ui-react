@@ -1,13 +1,13 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  title: 'lucky-ui-react',
-  favicon: 'https://img-blog.csdnimg.cn/20210515162224660.png',
-  logo: 'https://img-blog.csdnimg.cn/20210515162224660.png',
+  title: 'Lucky UI',
+  favicon: 'https://chenzibo.xyz/images/luckyui/logo.png',
+  logo: 'https://chenzibo.xyz/images/luckyui/logo.png',
   outputPath: 'docs-dist',
   mode: 'site',
   theme: {
-    '@c-primary': '#0d6efd',
+    '@c-primary': '#4569d4',
   },
   sass: {
     implementation: require('node-sass'),
@@ -42,11 +42,11 @@ export default defineConfig({
   menus: {
     '/components': [
       {
-        title: '简介',
+        title: '指南',
         path: '/components',
       },
       {
-        title: '基础',
+        title: '基础组件',
         children: ['components/button', 'components/icon'],
       },
       {
@@ -54,7 +54,7 @@ export default defineConfig({
         children: ['components/menu'],
       },
       {
-        title: '数据录入',
+        title: '表单组件',
         children: [
           'components/auto-complete',
           'components/input',
@@ -67,7 +67,7 @@ export default defineConfig({
         children: ['components/progress', 'components/tabs', 'components/card'],
       },
       {
-        title: '反馈',
+        title: '反馈组件',
         children: ['components/alert', 'components/message'],
       },
     ],

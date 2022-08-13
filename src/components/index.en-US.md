@@ -1,32 +1,27 @@
-# lucky-ui-react of React
+# Lucky UI
 
-`lucky-ui-react` Is a React UI component library, is mainly used in the product research and development in students' level of the background.
+`lucky-ui-react` is a UI component library suitable for the development of middle and background systems - easy to use, simple in style, and complete in component types.
 
 ## ✨ Features
 
-🌈 Products derived from grade students in the background.
+🌞 An out-of-the-box component library that can be used to quickly build page prototypes or high-fidelity visuals to improve product design efficiency.
 
-📦 Out of the box generally React components.
+🌟 Use the component demo to quickly experience the interaction details; use the code packaged by the front-end framework to help engineers develop quickly.
 
-🛡 Use the TypeScript development, provide complete type definition file.
+🌙 The document supports Chinese and English switching, black and white theme switching, and the experience is full.
 
-🌍 Provide bilingual support.
+## Current version
 
-## Version
+- Release `1.1.0`
 
-- Test Version 0.1.6
+## Get started quickly
 
-## Installation
+It is recommended to use npm or yarn for installation, which can not only be easily debugged in the development environment, but also can be packaged and deployed in the production environment with confidence.
 
-**Use npm or yarn to install**
-<br />
-<br />
-It is recommended to use NPM or yarn for development, not only in the development environment to easily debug, also can be used safely in packaging production deployment.
-
-```shell
-$ npm install lucky-ui-react --save
+```bash
+npm install lucky-ui-react --save
 ```
 
-```shell
-$ yarn lucky-ui-react
+```bash
+yarn lucky-ui-react --save
 ```

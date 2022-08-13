@@ -33,7 +33,7 @@
     "build-sass": "node-sass ./src/style/index.scss ./dist/index.css",
     "test": "react-scripts test",
     "test:coverage": "umi-test --coverage",
-    "prepublish": "npm run test && npm run lint && npm run build"
+    "prepublish": "npm run lint && npm run build"
   },
   "main": "dist/index.js",
   "module": "dist/index.js",

@@ -1,21 +1,21 @@
 ---
-title: lucky-ui-react - Apply to the react of component library
+title: Lucky UI - Born for mid- and back-end system development
 order: 10
 hero:
-  title: lucky-ui-react
-  desc: A simple UI component library
+  title: Lucky UI
+  desc: 📖 A UI component library suitable for the development and use of middle and background systems - easy to use, simple in style, and complete in component types
   actions:
-    - text: Start
+    - text: Get started quickly
       link: /en-US/components
 features:
-  - icon: https://img-blog.csdnimg.cn/20210515165515850.png
-    title: Perfecting
-    desc: Look at the mood to improve the component library, what you need to do, the components you need may appear.
-  - icon: https://img-blog.csdnimg.cn/20210515165515852.png
-    title: Not very beautiful UI
-    desc: In the era of elegance, there is ordinary UI, ordinary but not mediocre. Under the ordinary appearance, there are still strong souls.
-  - icon: https://img-blog.csdnimg.cn/20210515165515851.png
-    title: Basic functions of standards
-    desc: Retained the common functions of common components, did not launch complex functions, meet the basic use, need fancy operation, sorry, no!
-footer: Copyright © 2022 Created by bertilchan on GitHub
+  - icon: https://chenzibo.xyz/images/luckyui/k79dm8ih_w144_h144.png
+    title: Out of the box
+    desc: An out-of-the-box component library that can be used to quickly build page prototypes or high-fidelity visuals to improve product design efficiency.
+  - icon: https://chenzibo.xyz/images/luckyui/k7bjsocq_w144_h144.png
+    title: Components
+    desc: Use the component Demo to quickly experience the interaction details; use the code packaged by the front-end framework to help engineers develop quickly.
+  - icon: https://chenzibo.xyz/images/luckyui/kj9t9sk7_w144_h144.png
+    title: Better reading experience
+    desc: Documents support Chinese and English switching, black and white theme switching, full of experience.
+footer: Copyright© 2022-2029 Developed by BertilChan
 ---

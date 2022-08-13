@@ -1,33 +1,27 @@
-# lucky-ui-react
+# Lucky UI
 
-`lucky-ui-react` 是一个 React UI 组件库，主要用于中后台系统。
+`lucky-ui-react` 是一个适用于中后台系统开发使用的 UI 组件库——使用方便、风格简约、组件类型齐全。
 
-## ✨ 特性
+## ✨ 特点
 
-🌈 适用于中后台系统。
+🌞 一个开箱即用的组件库，用其快速搭建页面原型或高保真视觉稿，提升产品设计效率。
 
-📦 开箱即用的一般 React 组件。
+🌟 使用组件 Demo 快速体验交互细节；使用前端框架封装的代码帮助工程师快速开发。
 
-🛡 使用 TypeScript 开发，提供完整的类型定义文件。
+🌙 文档支持中英文切换、黑白主题切换，体验感十足。
 
-🌍 提供双语支持。
+## 当前版本
 
+- 发行版 `1.1.0`
 
-## 版本
+## 快速上手
 
-- 发行版 1.1.0
+推荐使用 npm 或 yarn 的方式进行安装，不仅可以在开发环境轻松调试，也可以放心地在生产环境打包部署使用。
 
-## 安装
-
-**使用 npm 或 yarn 安装**
-<br />
-<br />
-推荐使用 npm 或 yarn 的方式进行开发，不仅可在开发环境轻松调试，也可放心地在生产环境打包部署使用。
-
-```shell
-$ npm install lucky-ui-react --save
+```bash
+npm install lucky-ui-react --save
 ```
 
-```shell
-$ yarn lucky-ui-react --save
+```bash
+yarn lucky-ui-react --save
 ```
