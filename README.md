@@ -10,7 +10,7 @@
 
 🌙 文档支持中英文切换、黑白主题切换，体验感十足。
 
-[官方文档](http://lucky.chenzibo.xyz)
+[官方文档](http://lucky.chenzibo.cn)
 
 ## 快速上手
 
