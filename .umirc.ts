@@ -2,8 +2,8 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   title: 'Lucky UI',
-  favicon: 'https://chenzibo.xyz/images/luckyui/logo.png',
-  logo: 'https://chenzibo.xyz/images/luckyui/logo.png',
+  favicon: 'https://cdn.chenzibo.cn/luckyui/logo.png',
+  logo: 'https://cdn.chenzibo.cn/luckyui/logo.png',
   outputPath: 'docs-dist',
   mode: 'site',
   theme: {
